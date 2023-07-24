@@ -3,10 +3,10 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
-       <h1 class="text-3xl font-bold underline">
+    <div className='bg-black'>
+      
     <Home/>
-  </h1>
+  
     </div>
   );
 }
