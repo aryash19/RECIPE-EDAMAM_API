@@ -16,6 +16,8 @@ function Layout(){
   )
 }
 function App() {
+  const cors = require("cors");
+
   return (
     <div className='bg-black'>
       <Routes>
