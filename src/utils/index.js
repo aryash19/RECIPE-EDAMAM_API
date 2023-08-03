@@ -1,3 +1,5 @@
+
+
 export async function fetchRecipes (filter){
     const {query, limit} = filter;
     
@@ -7,7 +9,7 @@ export async function fetchRecipes (filter){
 
     const response = await fetch(url,{ mode: 'no-cors'})
 
-    const data = await response.json()
+    const data = await response.json();
 
     return data?.hits;
 }
